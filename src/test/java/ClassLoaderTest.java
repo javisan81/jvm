@@ -28,7 +28,7 @@ public class ClassLoaderTest {
         }
 
         @Override
-        public Class findClass(String name) throws ClassNotFoundException {
+        public Class findClass(String name) {
             byte[] b = loadClassFromFile(name);
             return defineClass(name, b, 0, b.length);
         }
