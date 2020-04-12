@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-«okup.Log4jLookup;
 
 public class ClassLoaderTest {
     public static URL myUrl;
