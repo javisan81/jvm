@@ -1,4 +1,3 @@
-import org.apache.logging.log4j.core.lookup.Log4jLookup;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -10,6 +9,8 @@ import java.net.URL;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+«okup.Log4jLookup;
 
 public class ClassLoaderTest {
     public static URL myUrl;
@@ -58,8 +59,6 @@ public class ClassLoaderTest {
         Class<?> c2 = new TestClassLoader1().loadClass("ClassLoaderTest");
         System.out.println("Classloader of this class:"
                 + ClassLoaderTest.class.getClassLoader());
-        System.out.println("Classloader of Logging:"
-                + Log4jLookup.class.getClassLoader());
         System.out.println("Classloader of ArrayList:"
                 + ArrayList.class.getClassLoader());
         //System.out.println(c1.getClassLoader());
