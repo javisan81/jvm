@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3629399a-ec00-4aeb-bae8-ca70bb97755d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MemoryLeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MemoryLeakTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aMG6eyEukB3GxoSbEo4SNMaKLO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.HelloWorldJNI">
+    <configuration name="HelloWorldJNI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorldJNI" />
+      <module name="jvm" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoaderTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassLoaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoaderTest.customClassLoader" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassLoaderTest" />
+      <option name="METHOD_NAME" value="customClassLoader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoaderTest.staticFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassLoaderTest" />
+      <option name="METHOD_NAME" value="staticFields" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapMemoryCrashTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HeapMemoryCrashTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xms50m -Xmx100m" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryLeakTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MemoryLeakTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx10m" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryLeakTest.memoryLeak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MemoryLeakTest" />
+      <option name="METHOD_NAME" value="memoryLeak" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetaspaceCrashTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MetaspaceCrashTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -XX:MaxMetaspaceSize=20m" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackMemoryTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackMemoryTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea  -Xss288k" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackMemoryTest.maxStackSizeAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackMemoryTest" />
+      <option name="METHOD_NAME" value="maxStackSizeAllowed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloWorldJNI" />
+      <item itemvalue="JUnit.ClassLoaderTest.customClassLoader" />
+      <item itemvalue="JUnit.ClassLoaderTest" />
+      <item itemvalue="JUnit.StackMemoryTest" />
+      <item itemvalue="JUnit.HeapMemoryCrashTest" />
+      <item itemvalue="JUnit.MetaspaceCrashTest" />
+      <item itemvalue="JUnit.ClassLoaderTest.staticFields" />
+      <item itemvalue="JUnit.StackMemoryTest.maxStackSizeAllowed" />
+      <item itemvalue="JUnit.MemoryLeakTest" />
+      <item itemvalue="JUnit.MemoryLeakTest.memoryLeak" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloWorldJNI" />
+        <item itemvalue="JUnit.MemoryLeakTest" />
+        <item itemvalue="JUnit.MemoryLeakTest.memoryLeak" />
+        <item itemvalue="JUnit.StackMemoryTest.maxStackSizeAllowed" />
+        <item itemvalue="JUnit.ClassLoaderTest.staticFields" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../announcements" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../invoicing" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../packoffice-back" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../price-calculator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../pro-front-back" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../purchase" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../shipments-autocomplete" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../voucher" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3629399a-ec00-4aeb-bae8-ca70bb97755d" name="Default Changelist" comment="" />
+      <created>1586537875324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586537875324</updated>
+      <workItem from="1586537878638" duration="8523000" />
+      <workItem from="1586595300155" duration="11188000" />
+      <workItem from="1586778242923" duration="9544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587124452701">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587124452701" />
+    <state x="100" y="123" width="1480" height="827" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586593886233">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="100" y="123" width="1480" height="827" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586593886233" />
+    <state x="545" y="336" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587125377226">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="545" y="336" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1587125377226" />
+    <state x="653" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1586683842597">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="247" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1586683842597" />
+    <state width="1636" height="449" key="GridCell.Tab.0.bottom" timestamp="1587125436586">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="449" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587125436586" />
+    <state width="1636" height="449" key="GridCell.Tab.0.center" timestamp="1587125436581">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="449" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587125436581" />
+    <state width="1636" height="449" key="GridCell.Tab.0.left" timestamp="1587125436564">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="449" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587125436564" />
+    <state width="1636" height="449" key="GridCell.Tab.0.right" timestamp="1587125436586">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="449" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587125436586" />
+    <state width="1636" height="326" key="GridCell.Tab.1.bottom" timestamp="1587123486672">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587123486672" />
+    <state width="1636" height="326" key="GridCell.Tab.1.center" timestamp="1587123486672">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587123486672" />
+    <state width="1636" height="326" key="GridCell.Tab.1.left" timestamp="1587123486672">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587123486672" />
+    <state width="1636" height="326" key="GridCell.Tab.1.right" timestamp="1587123486672">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587123486672" />
+    <state x="378" y="198" key="Maven.ArtifactSearchDialog" timestamp="1586686432132">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="378" y="198" key="Maven.ArtifactSearchDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586686432132" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1586703460793">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1586703460793" />
+  </component>
+</project>
